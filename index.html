@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Fabrication by thanh</title>
+    <link rel="icon" href="assets/index_df.png" type="image/icon type">
+    <link href="https://fonts.cdnfonts.com/css/fresh-script" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" />
+    <script src="scripts/infinite-scroll.pkgd.min.js" defer></script>
+</head>
+
+<style>
+@import url('https://fonts.cdnfonts.com/css/fresh-script');
+body{
+    background-image: url("assets/tom.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    width: device-width;
+    background-position: top; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+#top-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-bar{
+    margin: 0;
+    font-size: 24px;
+}
+#mid-header{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    gap: 45vw;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.mid-bar{
+    margin: 0;
+    font-size: 30px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    color: #ffd87e;
+    padding: 1.5rem;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Fresh Script', sans-serif;
+}
+
+
+a:link, a:visited {
+    color: #ffd87e;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Fresh Script', sans-serif;
+    font-weight: 400;
+    padding: 1.5rem;
+}
+</style>
+
+<body>
+    <section>
+        <div id="top-header">
+            <p class="top-bar"><a href="#">Digital Fabrication</a></p>
+            <p class="top-bar"><a href="assignments.html">Assignments</a></p>
+            <p class="top-bar"><a href="links.html">Links</a></p>
+        </div>
+
+        <div id="mid-header">
+            <p class="mid-bar"><a href="about.html">about</a></p>
+            <p class="mid-bar"><a href="final.html">final</a></p>
+        </div>
+
+        <div id="footer">
+            <footer>
+                <br>&copy;2023 thanh
+            </footer>
+        </div>
+    </section>
+
+</body>
+
+</html>
